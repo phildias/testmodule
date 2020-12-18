@@ -1,0 +1,11 @@
+{
+    "name": "testmodule",
+    "title": "My Test Module",
+    "description": "It does stuff",
+    "author": "Phil",
+    "version": "0.0.1",
+    "compatibleCoreVersion":"0.7.7",
+    "scripts": [
+        "./scripts/test.js" 
+    ]
+}
