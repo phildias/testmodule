@@ -1,0 +1,8 @@
+{
+    "name": "testmodule",
+    "title": "My Test Module",
+    "description": "It does stuff",
+    "author": "Phil",
+    "version": "1.0.0",
+    "compatibleCoreVersion":"0.7.7"
+}
