@@ -1,11 +1,31 @@
 {
-    "name": "testmodule",
-    "title": "My Test Module",
-    "description": "It does stuff",
-    "author": "Phil",
-    "version": "0.0.1",
-    "compatibleCoreVersion":"0.7.7",
-    "scripts": [
-        "./scripts/test.js" 
-    ]
+  "name": "testmodule",
+  "title": "My Test Module",
+  "description": "This is my test module. Why doesn't it work?",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.7.7",
+  "compatibleCoreVersion": "0.7.7",
+  "author": "jegasus",
+  "dependencies": [
+
+  ],
+  "esmodules": [
+    "/scripts/module.js"
+  ],
+  "scripts": [
+    "/scripts/lib/lib.js"
+  ],
+  "styles": [
+    "/styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "https://github.com/phildias/testmodule",
+  "manifest": "https://github.com/phildias/testmodule/releases/download/latest/module.json",
+  "download": "https://github.com/phildias/testmodule/releases/download/0.0.1/module.zip"
 }
